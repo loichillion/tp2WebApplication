@@ -1,17 +1,17 @@
 function function1(id) {
     var paragraph = document.getElementById(id).innerHTML;
-    var newparagraph = paragraph.replace(/([A-Za-z]){7,}/g, "<span style='background-color: 00ff40;'>" + /([A-Za-z]){7,}/g + "</span> ");
+    var newparagraph = paragraph.replace(/([A-Za-z]){7,}/g, "<span style='background-color: 00ff40;'>$&</span> ");
     document.getElementById(id).innerHTML = newparagraph;
   }
 function function2(id) {
     var paragraph = document.getElementById(id).innerHTML;
-    var newparagraph = paragraph.replace(/(?<=[.?!])/g, "<br></br> <br></br>");
+    var newparagraph = paragraph.replace(/([^.?!]+[.?!]){5}/g, "$&<p></p>");
     document.getElementById(id).innerHTML = newparagraph;
   }
   
 function function3(id) {
     var paragraph = document.getElementById(id).innerHTML;
-    var newparagraph = paragraph.replace(/google/gi, " <a href='http://www.google.com'>" + "Google" + "</a> ");
+    var newparagraph = paragraph.replace(/google/gi, " <a href='http://www.google.com'>$&</a> ");
     document.getElementById(id).innerHTML = newparagraph;
   }
   
