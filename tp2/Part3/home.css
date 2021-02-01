@@ -1,0 +1,86 @@
+.div1{
+    text-align: center;
+    width: 100%;
+    
+  }
+  
+.button{
+    min-height: 100px;
+    max-height: 100px;
+    min-width: 250px;
+    max-width: 250px;
+    background-color: blue;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px #7c8395;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    text-transform: none;
+    transition:all .3s ease-in;
+    
+}
+
+.lastButton{
+    min-height: 100px;
+    max-height: 100px;
+    min-width: 250px;
+    max-width: 250px;
+    background-color: blue;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px #7c8395;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    text-transform: none;
+}
+
+.disparition{
+    padding: 15% 0;
+}
+
+.titre{
+    text-align: center;
+}
+
+.hello{
+    font-size: 60px;
+    color: red;
+}
+
+
+.change{
+    margin-top: 15%;
+    cursor: pointer;
+    transition:all .3s ease-in;
+}
+
+.div2{
+    min-height: 100px;
+    max-height: 100px;
+    min-width: 250px;
+    max-width: 250px;
+    background-color: blue;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px #7c8395;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    text-transform:none;
+    transition:all .3s ease-in;
+}
+
+.lastButton:hover .button{
+    opacity:0;
+  }
+
+.lastButton:hover .change{
+    opacity:0;
+  }  
+
+.lastButton:hover .div2{
+    opacity:0;
+  }   
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+<head>
+  <title>partie3 tp2 Web</title>
+  <link rel="stylesheet" href="home.css">
+  <script src="./script2.js"></script>
+</head>
+
+<body> 
+    <div id="page" class="div1">
+        <h1 class="titre">Partie3 TP2 Web</h1><br></br>
+        <div id="buttonN1"  class="div2">
+            <select id="button1" class="change" onchange="color(this.value)">
+                <option value="">Color</option>
+                <option value="blue">Blue</option>
+                <option value="red">Red</option>
+                <option value="pink">Pink</option>
+                <option value="purple">Purple</option>
+                <option value="white">White</option>
+                <option value="black">Black</option>
+                <option value="yellow">Yellow</option>
+                <option value="green">Green</option>
+                <option value="grey">Grey</option>
+            </select>
+        </div>
+        <br></br>
+        <input id="button2" class="button" type = "button" onclick = "function2()" value = "remove the first button"><br></br>
+        <input id="button3" class="button" type = "button" onclick = "function3()" value = "Uppercase all the buttons">
+        <h1 class="hello" id="hello"></h1>
+        <input id="button4" class="button" type = "button" onclick = "function4('text')" value = "Lowercase all the buttons"><br></br>
+        <input id="button5" class="button" type = "button" onclick = "function5('text')" value = "HELLO WORLD!"><br></br>
+        <input id="button6" class="button" type = "button" onclick = "function6('text')" value = "play a sound"><br></br>
+        <div id="button7" class="lastButton">
+            <p class="disparition">DISPARITION</p>
+        </div><br></br>
+    </div>
+</body>
+</html>
